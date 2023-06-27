@@ -1,6 +1,5 @@
 Feature: lastFiveSuiteApi
 
-  @smoke
   Scenario Outline: Last api(GET)
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>

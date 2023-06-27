@@ -1,6 +1,5 @@
 Feature: createUserApi
 
-  @smoke
   Scenario Outline: Create New User
     Given  Set Suite-API endpoint and method and SampleName "<endpoint>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>

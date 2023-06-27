@@ -1,6 +1,5 @@
 Feature: getSuiteDataApi
 
-  @smoke
   Scenario Outline: Sample-2
     Given Set endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>

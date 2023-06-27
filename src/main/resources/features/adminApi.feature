@@ -95,7 +95,6 @@ Feature: Admin
       | endpoint  | Method | Expected_status | SampleName   |
       | adminApi1 | put    | 403             | adminScreen6 |
 
-  @smoke
   Scenario Outline: API to Get Project Details (admin screen)
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -117,7 +116,6 @@ Feature: Admin
       | endpoint  | Method | Expected_status |
       | adminApi1 | get    | 403             |
 
-  @smoke
   Scenario Outline: API to Get User of Same (admin screen)
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -191,7 +189,6 @@ Feature: Admin
       | endpoint  | Method | Expected_status | SampleName    |
       | adminApi5 | post   | 403             | adminScreen14 |
 
-  @smoke
   Scenario Outline: API To Get Requested Users (admin screen)
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -213,7 +210,7 @@ Feature: Admin
       | endpoint  | Method | Expected_status |
       | adminApi6 | get    | 403             |
 
-  @smoke
+
   Scenario Outline: API To Get Users on the project (admin screen)
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -312,7 +309,6 @@ Feature: Admin
       | endpoint  | endpoint1  | Method | Expected_status | SampleName    | SampleName1   |
       | adminApi5 | adminApi11 | post   | 403             | adminScreen26 | adminScreen29 |
 
-  @smoke
   Scenario Outline: API TO GET Project details By Id (admin screen)
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -383,7 +379,6 @@ Feature: Admin
       | endpoint   | endpoint1  | Method | Expected_status | SampleName    |
       | adminApi17 | adminApi18 | post   | 403             | adminScreen30 |
 
-  @smoke
   Scenario Outline: Api to get company admins in case of Super Admin
     Given Set endpoint and method in case of super admin "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -412,7 +407,6 @@ Feature: Admin
       | endpoint   | Method | Expected_status |
       | adminApi19 | get    | 403             |
 
-  @smoke
   Scenario Outline: Api to get the users of all the company by company name in case of Super Admin
     Given Set endpoint and method in case of super admin "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -532,7 +526,6 @@ Feature: Admin
       | endpoint | endpoint2  | endpoint3  | Method | Expected_status | SampleName                 | SampleName2 |
       | Post     | adminApi25 | adminApi26 | Post   | 200             | PostgeminiAdmin_sampleJson | adminApi39  |
 
-  @smoke
   Scenario Outline: Api To get company details when you're admin
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -589,7 +582,6 @@ Feature: Admin
       | endpoint   | Method | Expected_status |
       | adminApi31 | get    | 200             |
 
-  @smoke
   Scenario Outline: Api To Get All company in case of company-admin
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -646,7 +638,6 @@ Feature: Admin
       | endpoint   | Method | Expected_status |
       | adminApi34 | get    | 200             |
 
-  @smoke
   Scenario Outline: Api to get company users in case of super-admin
     Given Set endpoint and method in case of super admin "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
@@ -682,7 +673,6 @@ Feature: Admin
       | endpoint   | Method | Expected_status |
       | adminApi37 | get    | 200             |
 
-  @smoke
   Scenario Outline: Api to get company admin in case of super-admin
     Given Set endpoint and method in case of super admin "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>

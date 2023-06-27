@@ -1,6 +1,5 @@
 Feature: getTestDataApi
 
-  @smoke
   Scenario Outline: Get data of test case
     Given Set endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>

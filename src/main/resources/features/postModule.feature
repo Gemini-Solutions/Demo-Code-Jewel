@@ -7,7 +7,6 @@ Feature: moduleApi
       | endpoint      | Method | Expected_status | SampleName |
       | postModuleApi | post   | 201             | postModule |
 
-  @smoke
   Scenario Outline: Get Module name list (GET)
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>

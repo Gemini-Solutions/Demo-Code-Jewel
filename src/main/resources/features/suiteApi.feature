@@ -1,6 +1,5 @@
 Feature: suiteApi
 
-  @smoke
   Scenario Outline: API to get the List of Suites in the Application
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>

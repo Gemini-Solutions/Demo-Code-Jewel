@@ -28,8 +28,7 @@ Feature: getApi
     Examples:
       | endpoint | Method | Expected_status |
       | Gettte   | get    | 400             |
-#
-  @smoke
+
   Scenario Outline: Get Token
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
