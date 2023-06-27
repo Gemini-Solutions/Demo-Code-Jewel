@@ -1,0 +1,17 @@
+[
+  {
+    "s_id": [
+      3210
+    ],
+    "category": "ssss",
+    "name": "TC",
+    "type": "Scenario",
+    "scenario_steps": [
+      "fs1"
+    ],
+    "run_flag": "Y",
+    "tags": null,
+    "framework": "GEMJAR",
+    "source": "JEWEL"
+  }
+]

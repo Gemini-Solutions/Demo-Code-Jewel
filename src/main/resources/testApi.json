@@ -1,0 +1,14 @@
+[
+  {
+    "s_id": [
+      3210
+    ],
+    "type": "GEMPYP",
+    "name": "TEST",
+    "category": "CAT1",
+    "framework": "GEMPYP",
+    "tags": null,
+    "run_flag": "Y",
+    "isolatedVersionId": 7175
+  }
+]

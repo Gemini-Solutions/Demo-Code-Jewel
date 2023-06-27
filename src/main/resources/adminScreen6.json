@@ -1,0 +1,12 @@
+{
+  "pid": 128,
+  "projectName": "JEWEL-UI-JV",
+  "description": "sample",
+  "managers": [],
+  "qaLead": [],
+  "devTeam": [],
+  "qaTeam": [],
+  "env": [
+    "beta"
+  ]
+}
