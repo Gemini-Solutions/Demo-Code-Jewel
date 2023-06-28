@@ -6,9 +6,7 @@
   "username": "maulick_test",
   "username2": "project_user",
   "jewel_user": "gemini.demo",
-  "tags": "@smoke",
   "scenario": "",
-  "feature": "src/main/resources/features",
   "email_report": "nooo",
   "email_to": [
     "maulick.bharadwaj@geminisolutions.com",
